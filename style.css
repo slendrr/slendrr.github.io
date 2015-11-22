@@ -12,10 +12,23 @@
   height: auto;
   margin: 10px;
  }
-
- .subtext  {
+.subtext  {
   color: gray;
  }
+
+.icon {
+  width: 25px;
+  height: auto;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
  /*
  * Style tweaks
  * --------------------------------------------------
