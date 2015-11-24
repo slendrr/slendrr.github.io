@@ -6,6 +6,10 @@
   background-image: url("images/IMG-20151115-WA0007.jpg")
  }
 
+ .angryb  {
+  background-image: url("images/angryb.jpg");
+ }
+
  .profile_pic {
   border-radius: 100%;
   width: 250px;
@@ -27,6 +31,18 @@
 
 .center {
   text-align: center;
+}
+
+.trans_bg {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.thumbnail  {
+  width: 250px;
+  height: auto;
 }
 
  /*
