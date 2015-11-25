@@ -1,170 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+---
+layout: default
+---
 
-    <title>www.edwinhung.com</title>
+<div class="home">
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <h1 class="page-heading">Posts</h1>
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <body>
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- 
-
-      Facebook share
-
-<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
-
-      LinkedIn share
-
-      <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-<script type="IN/Share"></script>
-
-      Twitter tweet
-
-      <a href="https://twitter.com/share" class="twitter-share-button"{count}>Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-      -->
-
-    <nav class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">see more</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">EDWIN HUNG</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="writing.html">Writing</a></li>
-            <li><a href="design.html">Design</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </nav><!-- /.navbar -->
-
-    <div class="container">
-
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">sidebar</button>
-          </p>
-          <div class="jumbotron home">
-            <h1>What's up? I'm Edwin.</h1>
-            <p>Thanks for visiting! I write on a variety of topics in a language that's easy to read. You won't find fancy words or technical jargon here, just straight up knowledge bombs smashing interdisciplinary barriers.</p>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-lg-4">
-              <h2>I'm Dropping Out, And You Should Too</h2>
-              <p>Writing: Personal</p>
-              <p class="subtext">The BIGGEST names in our lifetime are all drop-outs. Bill Gates, Steve Jobs, Mark Zuckerberg, Richard Branson, and a few more you never knew about.</p>
-              <p><a class="btn btn-default" href="https://www.linkedin.com/pulse/im-dropping-out-you-should-too-edwin-hung" role="button">Read on LinkedIn &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <!-- <div class="col-xs-6 col-lg-4">  
-              <h2>How I Redesigned An Arcade Racer At Age 14</h2>
-              <p>Design: Game</p>
-              <p class="subtext">In 2004, I started playing a top-down arcade racing game called GeneRally. I became deeply involved in the community, creating new tracks and cars for others to download.</p>
-              <p><a class="btn btn-default" href="#" role="button">Read &raquo;</a></p>
-            </div> --><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Angry Birds: A Game Design Masterpiece</h2>
-              <p>Design: Game</p>
-              <p class="subtext">Angry Birds is the first mega-hit mobile game before Candy Crush, Clash of Clans, and many others that dominate the scene today. I dive deep into its gameplay to discover why it was such a success.</p>
-              <p><a class="btn btn-default" href="3.html" role="button">Read &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Deep In The Crowded Woods</h2>
-              <p>Writing: Fiction</p>
-              <p class="subtext">I awaken to a dash of wind skipping across my face, hissing as it passes. The grass chatters and the trees moan as if they feel disturbed as well. A smell of sharpness lingers. I take a deep breath, rub my eyes, and wait for them to focus. They don't.</p>
-              <p><a class="btn btn-default" href="1.html" role="button">Read &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>A Collection Of Posters</h2>
-              <p>Design: Graphic</p>
-              <p class="subtext">A collection of posters I created for a student club at UBC using Adobe Photoshop.</p>
-              <p><a class="btn btn-default" href="2.html" role="button">View &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <!-- <div class="col-xs-6 col-lg-4">
-              <h2>Funeral Day</h2>
-              <p>Writing: Fiction</p>
-              <p class="subtext">insert summary</p>
-              <p><a class="btn btn-default" href="#" role="button">Read &raquo;</a></p>
-            </div> --><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Contributions to the Vancouver Observer</h2>
-              <p>Writing: Journalism</p>
-              <p class="subtext">I wrote several articles for the Vancouver Observer as a volunteer contributor in 2010. I also helped edit their archives to utilize SEO, keywords, hyperlinks, and subheadings.</p>
-              <p><a class="btn btn-default" href="http://www.vancouverobserver.com/search/site?text=edwin+hung" role="button">Link to VO &raquo;</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-          </div><!--/row-->
-        </div><!--/.col-xs-12.col-sm-9-->
-<!-- Sidebar begins --> 
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <!-- Twitter Widget -->
-          <div class="list-group">
-            <!-- <a href="#" class="list-group-item">link</a> -->    
-            <a class="twitter-timeline" href="https://twitter.com/cywinr" data-widget-id="668299003910488065">Tweets by @cywinr</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div><!-- Twitter Widget -->
-
-        </div><!--/.sidebar-offcanvas-->
-      </div><!--/row-->
-
-      <hr>
-
-      <footer>
-        <p>Edwin Hung &copy; 2015 | Vancouver, BC</p>
-      </footer>
-
-    </div><!--/.container-->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-    <script src="java.js"></script>
-  </body>
-</html>
+</div>
