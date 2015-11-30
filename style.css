@@ -3,13 +3,13 @@
  * --------------------------------------------------
  */
  .home {
-  background-image: url("images/IMG-20151115-WA0007.jpg")
+  background-image: url("/images/IMG-20151115-WA0007.jpg")
  }
 
  .angryb  {
-  background-image: url("images/angryb.jpg");
-  width: 400px;
-  height: 700px;
+  background-image: url("/images/angryb.jpg");
+  width: 700px;
+  height: 400px;
  }
 
  .profile_pic {
