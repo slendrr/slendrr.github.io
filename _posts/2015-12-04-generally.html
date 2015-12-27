@@ -34,17 +34,30 @@ permalink: "/design/generally"
     <p><strong>This is the basic GeneRally car, made with only 40 polygons and 30 vertices.</strong></p>
     <img src="/images/grgeneral.JPG"/><br><br>
     <p>At first, I modeled the cars simply by looking at pictures but I could never quite get the proportions right. I also wasn't sure if the size of the cars I made were correct in relation to each other.</p>
-    <p>To help me with this, I created a spreadsheet of cars and researched their dimensions of height, width, and length. I divided these numbers by a ratio and used this calculation to determine the coordinates of my vertices.</p>
-    <p>I also dug around on the internet to find blueprints and compared them to my wireframes.</p>
-    <p>Here's the result:</p>
+    <p>To help me with this, I created a spreadsheet of cars and researched their dimensions of height, width, and length. I divided these numbers by a ratio and used this calculation to determine the coordinates of my vertices. I also dug around on the internet to find blueprints and compared them to my wireframes.</p>
+    <img src="/images/grlambowire.JPG"/><br><br>
+    <p>Here's what it looks like in-game:</p>
     <img src="/images/grlambofb.JPG"/>
     <p>Do you recognize this car? It's a Lamborghini Murcielago.</p>
     <p><strong>After I was happy with this car, I got a little crazy... I wanted more.</strong></p>
-    <p>I started spending hundreds of hours watching comparison videos, car reviews, and did research on all sorts of cars.</p>
+    <p>I started spending hundreds of hours watching comparison videos, car reviews, and did research on all sorts of cars, including Japanese sports cars, American muscle cars, and European exotic cars.</p>
     <p>I took notes on how cars felt in relation to each other, which cars felt faster, which cars turned sharper, and which cars slid more. These were all immeasurable qualities that I wanted to incorporate into my cars.</p>
     <p><strong>One by one, I accumulated a collection of over 100 cars.</strong></p>
-    <p>I picked a well-rounded track with both wide and tight turns, short and long straights, and various elevation changes as a testing ground.</p>
-    <p>Then I spent hours and hours driving each car over and over again on the same track to tweak the subtle differences between them.</p>
-    <p>It wasn't enough to have one realistic car. I had to have hundreds, all performing similarly in their class, while expressing their differences in strengths and weaknesses.</p>
+    <p>I picked a well-rounded track with both wide and tight turns, short and long straights, and various elevation changes as a testing ground. Then I spent hours and hours driving each car over and over again on the same track to tweak the subtle differences between them.</p>
+    <p>I learned to understand and use all the different performance values through this reiterative testing process.</p>
+    <img src="/images/grvalues.JPG"/><br><br>
+    <p>Here is what I discovered through trial and error.
+        <ul>
+            <li>air resistance determines how fast a car decelerates and limits top speed</li>
+            <li>downforce determines how much grip a car has at high speed and limits top speed</li>
+            <li>power determines how fast a car accelerates and increases top speed</li>
+            <li>top speed determines base top speed</li>
+            <li>sliding determines the slip angle of the car when turning</li>
+            <li>mass determines how heavy the car is, which affects acceleration, turn-rate, and deceleration.</li>
+            <li>balance determines turn-rate and tendency to oversteer/understeer.</li>
+            <li>grip determines the basic grip level of the car on different surfaces</li>
+        </ul>
+    Managing all these values in combination with each other allowed me to give each car its own distinctive behaviour. It wasn't enough to have one realistic car. I wanted to have hundreds so that I could race them against each other. I wanted to replicate their real-world performance and allow them to express their differences in strengths and weaknesses.
+    </p>
   </div><!--/.col-xs-12.col-sm-12-->
 </div><!--/row-->
