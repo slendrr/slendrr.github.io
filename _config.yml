@@ -9,9 +9,9 @@
 title: Edwin Hung
 email: edwincyhung@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I write on a variety of topics in a language that's easy to read. You won't find fancy words or technical jargon here, just straight up knowledge bombs smashing interdisciplinary barriers.
+  I am a writer from Vancouver BC seeking new job opportunities. I am incredibly versatile, with self-taught skills in graphic design, digital illustration, and web development. Thanks for visiting my website. I'd love to hear what you think.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.edwinhung.com" # the base hostname & protocol for your site
+url: "https://www.edwinhung.com" # the base hostname & protocol for your site
 twitter_username: ecyhung
 github_username:  edwincyhung
 linkedin_username: ecyhung

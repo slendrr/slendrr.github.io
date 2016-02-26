@@ -1,36 +1,39 @@
-<footer class="container">
-  <hr>
-  <p>Edwin Hung &copy; 2016 | Vancouver, BC</p>
-<!--
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
+<footer>
+<!-- Sidebar -->
+  <section id="sidebar">
+    <!-- Intro -->
+      <section id="intro">
+        <img class="logo" src="images/logo.PNG" alt="" />
+        <header>
+          <p>This website is under construction.</p>
+        </header>
+      </section>
+    <!-- Twitter Widget -->
+      <section>
+        <div class="list-group">
+          <!-- <a href="#" class="list-group-item">link</a> -->
+          <a class="twitter-timeline" href="https://twitter.com/ecyhung" data-widget-id="668299003910488065">Tweets by @ecyhung</a>
+          <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+          </script>
+        </div><!--/.list-group -->
+      </section>
+    <!-- Twitter Widget -->
+    <!-- About -->
+      <section class="blurb">
+        <h2>About</h2>
         <p>{{ site.description }}</p>
-      </div>
-    </div>
--->
+      </section>
+    <!-- Footer -->
+      <section id="footer">
+        <ul class="icons">
+          <li><a href="https://ca.linkedin.com/in/ecyhung" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          <li><a href="https://www.twitter.com/ecyhung" class="fa-twitter"><span class="label">Twitter</span></a></li>      
+          <li><a href="https://github.com/edwincyhung" class="fa-github"><span class="label">Github</span></a></li>
+          <li><a href="mailto:{{ site.email }}" class="fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="fa-rss"><span class="label">RSS</span></a></li>
+        </ul>
+        <p class="copyright">&copy; EDWIN HUNG | VANCOUVER, BC 2016</p>
+      </section>
+  </section>
 </footer>
