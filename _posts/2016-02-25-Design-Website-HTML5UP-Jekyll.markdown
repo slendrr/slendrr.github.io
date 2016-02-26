@@ -6,9 +6,7 @@ categories: coding
 image: futurejekyll
 desc: I originally used Bootstrap to create a static website and integrated a few Jekyll features into the code. This time around, I've created a fully functional Jekyll blog with the HTML5UP theme "Future Imperfect".
 ---
-Welcome to my new and improved blog! This is how it looked like before
-
-<article class="post"><img src="http://www.edwinhung.com/images/firstsite.JPG"/></article>
+Welcome to my new and improved blog!
 
 The old website was created using a Bootstrap layout called "Off-Canvas", which refers to the sidebar's ability to toggle on or off the main canvas depending on the screen size. I started off by using the Bootstrap layout and tried to integrate some Jekyll features into the code. It appeared to be a very functional layout but it was very aesthetically minimal. I did not spend enough time on the back-end of the project and as a result, every post that I added to the website required me to write additional code.
 
