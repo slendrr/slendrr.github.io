@@ -14,4 +14,4 @@ This time around, I started off with a default Jekyll blog and slowly integrated
 
 Over the next few days, I will be working on polishing up my old posts and porting them over to this new design. My high-quality posts will be directly ported over, while other posts may be re-written or deleted all-together.
 
-Still, this site isn't quite complete yet. I still have to add pages and categorize my posts.
+Still, this site isn't quite complete yet. I still have to add pages, categorize my posts, and implement social media sharing buttons.
