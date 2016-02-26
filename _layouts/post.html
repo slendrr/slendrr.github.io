@@ -4,11 +4,11 @@ layout: default
 <article class="mini-post">
   <header>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</p>
-    <img src="images/avatar.jpg" alt="" />
+    <time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <img src="http://www.edwinhung.com/images/avatar.jpg" alt="" />
     <p>{{ content }}</p>    
     <hr>
     <p>Thanks for reading! I'd love to hear what you think. If you found this post interesting, consider sharing it with others!</p>
   </header>
-  <img src="images/{{ post.image }}.JPG" alt=""/>
+  <img src="http://www.edwinhung.com/images/{{ post.image }}.JPG" alt=""/>
 </article>
