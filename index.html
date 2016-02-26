@@ -8,7 +8,7 @@ layout: default
       <header>
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-        <img src="images/avatar.jpg" alt="" />
+        <img class="author" src="images/avatar.jpg" alt="" />
         <p>{{ post.desc }}</p>
         <footer>
           <ul class="actions">
