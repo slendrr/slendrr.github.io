@@ -4,7 +4,7 @@ title:  "Welcome To My New Website & Blog"
 date:   2016-02-25 00:00:00 +0000
 categories: coding
 image: futurejekyll
-desc: My original website used a Bootstrap theme called "Off-Canvas", which appeared to be complete. However, the backend code was not optimized for adding and posting new content. This time around, I've started with the default Jekyll template and integrated the HTML5UP theme "Future Imperfect" to create a visually appealing and fully functional static website & blog.
+desc: My original website was created using Bootstrap but had poorly integrated Jekyll features. This time around, I've started with the default Jekyll template and integrated the HTML5UP theme "Future Imperfect".
 ---
 My original website used a Bootstrap theme called "Off-Canvas", which appeared to be complete. However, the backend code was not optimized for adding and posting new content. Here's what the old website looked like.
 
