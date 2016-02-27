@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I Re-Designed My Website Using HTML5UP & Jekyll"
+title:  "I Used Jekyll & HTML5UP To Build My New Website"
 date:   2016-02-25 00:00:00 +0000
 categories: coding
 image: futurejekyll
