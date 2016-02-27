@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome To My New Website & Blog"
+title:  "I Re-Designed My Website Using HTML5UP & Jekyll"
 date:   2016-02-25 00:00:00 +0000
 categories: coding
 image: futurejekyll
