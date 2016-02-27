@@ -7,11 +7,11 @@ layout: default
     <time class="published" datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
     <div id="share-buttons">    
       <!-- Facebook -->
-      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+      <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl }}" target="_blank">
           <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
       </a>      
       <!-- LinkedIn -->
-      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | prepend: site.baseurl }}" target="_blank">
           <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
       </a>      
       <!-- Pinterest -->
@@ -19,11 +19,11 @@ layout: default
           <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
       </a>      
       <!-- Reddit -->
-      <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <a href="http://reddit.com/submit?url={{ page.url | prepend: site.baseurl }}&amp;title={{ post.title }}" target="_blank">
           <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
       </a>       
       <!-- Twitter -->
-      <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+      <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl }}&amp;text=@ecyhung {{ post.title }}" target="_blank">
           <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
       </a>     
     </div>
