@@ -1,40 +1,38 @@
 ---
 layout: default
 ---
-<article class="mini-post">
-  <header>
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <time class="published" datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-    <div id="share-buttons">    
-      <!-- Facebook -->
-      <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl }}" target="_blank">
-          <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-      </a>      
-      <!-- LinkedIn -->
-      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | prepend: site.baseurl }}" target="_blank">
-          <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
-      </a>      
-      <!-- Pinterest -->
-      <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
-          <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
-      </a>      
-      <!-- Reddit -->
-      <a href="http://reddit.com/submit?url={{ page.url | prepend: site.baseurl }}&amp;title={{ page.title }}" target="_blank">
-          <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
-      </a>       
-      <!-- Twitter -->
-      <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl }}&amp;text=@ecyhung%20{{ page.title }}" target="_blank">
-          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-      </a>
-      <!-- Email -->
-      <a href="mailto:?Subject={{ page.title }}&amp;Body=You%20should%20check%20this%20post%20out!%20 {{ page.url | prepend: site.baseurl }}">
-          <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
-      </a>     
-    </div>
-
-    <p>{{ content }}</p>    
-    <hr>
-    <p>Thanks for reading! I'd love to hear what you think. If you found this post interesting, consider sharing it with others!</p>
-  </header>
+<article class="post">
   <img class="image" src="http://www.edwinhung.com/images/{{ page.image }}.JPG" alt=""/>
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  <time class="published" datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+  <div id="share-buttons">    
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl }}" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>      
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | prepend: site.baseurl }}" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>      
+    <!-- Pinterest -->
+    <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+        <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+    </a>      
+    <!-- Reddit -->
+    <a href="http://reddit.com/submit?url={{ page.url | prepend: site.baseurl }}&amp;title={{ page.title }}" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+    </a>       
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl }}&amp;text=@ecyhung%20{{ page.title }}" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+    <!-- Email -->
+    <a href="mailto:?Subject={{ page.title }}&amp;Body=You%20should%20check%20this%20post%20out!%20 {{ page.url | prepend: site.baseurl }}">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>     
+  </div>
+
+  <p>{{ content }}</p>    
+  <hr>
+  <p>Thanks for reading! I'd love to hear what you think. If you found this post interesting, consider sharing it with others!</p>  
 </article>

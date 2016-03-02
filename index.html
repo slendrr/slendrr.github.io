@@ -4,18 +4,16 @@ layout: default
 
 <div class="home">
   {% for post in site.posts %}
-    <article class="mini-post">
-      <header>
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-        <p>{{ post.desc }}</p>
-        <footer>
-          <ul class="actions">
-            <li><a href="{{ post.url | prepend: site.baseurl }}" class="button big">Continue Reading</a></li>
-          </ul>
-        </footer>
-      </header>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="image"><img src="http://www.edwinhung.com/images/{{ post.image }}.JPG" alt=""/></a>
+    <article class="post">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="http://www.edwinhung.com/images/{{ post.image }}.JPG" alt=""/></a>
+      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <p>{{ post.desc }}</p>
+      <footer>
+        <ul class="actions">
+          <li><a href="{{ post.url | prepend: site.baseurl }}" class="button big">Continue Reading</a></li>
+        </ul>
+      </footer>
     </article>
   {% endfor %}
 </div>
