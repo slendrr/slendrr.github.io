@@ -8,7 +8,7 @@ desc: My original website was created using Bootstrap but had poorly integrated 
 ---
 My original website used a Bootstrap theme called "Off-Canvas", which appeared to be complete. However, the backend code was not optimized for adding and posting new content. Here's what the old website looked like.
 
-<img class="image" src="http://www.edwinhung.com/images/firstsite.JPG"/>
+<img class="postimg" src="http://www.edwinhung.com/images/firstsite.JPG"/>
 
 Although the website looked complete, all the content shown on the website had to be manually coded and organized. Each separate page and category for my posts were all fake. I organized the pages and posts manually by writing the code for every instance to make it seem like the posts were automatically organized and categorized. In fact, the posts were not actually assigned a category to be automatically displayed on its corresponding page. I basically treated each page as a single website and wrote the code for each individual post-link. I used permalinks to tie it all together so that it looked like all my pages, posts, and links communicated with each other. In reality, they were simply flat pages with permalinks to link everything together.
 
