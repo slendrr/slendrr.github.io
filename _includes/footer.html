@@ -1,39 +1,32 @@
-<footer>
-<!-- Sidebar -->
-  <section id="sidebar">
-    <!-- Intro -->
-      <section id="intro">
-        <a class="logo" href="http://www.edwinhung.com"><img class="logo" src="http://www.edwinhung.com/images/logo.PNG" alt="" /></a>
-        <header>
-          <p>Welcome to my website and blog!</p>
-        </header>
-      </section>
-    <!-- Twitter Widget -->
-      <section>
-        <div class="list-group">
-          <!-- <a href="#" class="list-group-item">link</a> -->
-          <a class="twitter-timeline" href="https://twitter.com/ecyhung" data-widget-id="668299003910488065">Tweets by @ecyhung</a>
-          <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-          </script>
-        </div><!--/.list-group -->
-      </section>
-    <!-- Twitter Widget -->
-    <!-- About -->
-      <section class="blurb">
-        <h2>About</h2>
-        <p>{{ site.description }}</p>
-      </section>
-    <!-- Footer -->
-      <section id="footer">
-        <ul class="icons">
-          <li><a href="https://ca.linkedin.com/in/ecyhung" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-          <li><a href="https://www.twitter.com/ecyhung" class="fa-twitter"><span class="label">Twitter</span></a></li>      
-          <li><a href="https://github.com/edwincyhung" class="fa-github"><span class="label">Github</span></a></li>
-          <li><a href="mailto:{{ site.email }}" class="fa-envelope"><span class="label">Email</span></a></li>
-          <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="fa-rss"><span class="label">RSS</span></a></li>
+<footer id="footer">
+  <div class="inner">
+    <section>
+      <h2>Get in touch</h2>
+      <form method="post" action="#">
+        <div class="field half first">
+          <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <div class="field half">
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div class="field">
+          <textarea name="message" id="message" placeholder="Message"></textarea>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value="Send" class="special" /></li>
         </ul>
-        <p class="copyright">&copy; EDWIN HUNG | VANCOUVER, BC 2016</p>
-      </section>
-  </section>
+      </form>
+    </section>
+    <section>
+      <h2>Follow</h2>
+      <ul class="icons">
+        <li><a href="https://www.twitter.com/ecyhung" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/edwincyhung" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="mailto:edwincyhung@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+      </ul>
+    </section>
+    <ul class="copyright">
+      <li>&copy; Edwin Hung | Vancouver, BC 2018</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </div>
 </footer>
