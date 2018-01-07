@@ -24,20 +24,3 @@ layout: default
     {% endfor %}   
   </section>
 </div>
-
-<div class="home">
-    <article class="mini-post">
-      <header>
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-        <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-        <p>{{ post.desc }}</p>
-        <footer>
-          <ul class="actions">
-            <li><a href="{{ post.url | prepend: site.baseurl }}" class="button big">Continue Reading</a></li>
-          </ul>
-        </footer>
-      </header>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="image"><img src="images/{{ post.image }}.JPG" alt=""/></a>
-    </article>
-</div>
