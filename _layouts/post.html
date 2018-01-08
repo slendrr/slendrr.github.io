@@ -3,8 +3,7 @@ layout: default
 ---
 <div class="inner">
   <h1>{{ page.title }}</h1>
-  <span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-  <p class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</p>
+  <p><time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">Last updated: {{ post.date | date: "%b %-d, %Y" }}</time></p>
   <div id="share-buttons">    
     <!-- Facebook -->
     <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl }}" target="_blank">
