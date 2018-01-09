@@ -8,8 +8,8 @@ desc: A peer-to-peer electronic cash system. The one that started it all. Bitcoi
 ---
 <h2>This is a work in process</h2>
 
-Website: https://bitcoin.org<br>
-Whitepaper: https://bitcoin.org/bitcoin.pdf
+Website: <a href="https://bitcoin.org">https://bitcoin.org</a><br>
+Whitepaper: <a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a>
 
 <h2>Mission</h2>
 To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
@@ -28,14 +28,6 @@ Bitcoin is meant to be used as electronic cash. There are three main ideas to un
 
 <b>Bitcoin users</b> send and receive money in the form of bitcoins by publicly broadcasting a transaction to the Bitcoin network. When the transaction is confirmed by the network, the money is transferred from the sender to the receievr.
 
-<b>The Bitcoin network</b> is a group of computers that receive and confirm transactions from Bitcoin users. Each computer participating in the network is called a 'node'. These nodes perform calculations to solve the block's cryptographic hash. Once a node succeeds, all other nodes verifies the solution, accepts the block, and all transactions within the block is confirmed.
+<b>The Bitcoin network</b> is a group of computers that receive and confirm transactions from Bitcoin users. 
 
-<b>The Bitcoin blockchain</b> is a chain of confirmed blocks. It is saved by every node as a record of all past transactions in chronological order. 
-
-<h2>Mining</h2>
-
-<h2>Contributors</h2>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<b>The Bitcoin blockchain</b> is a public ledger containing all transactions ever made.
