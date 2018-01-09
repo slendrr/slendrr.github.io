@@ -8,29 +8,29 @@ desc: A peer-to-peer electronic cash system. The one that started it all. Bitcoi
 ---
 <h2>This is a work in process</h2>
 
-Website: https://bitcoin.org
+Website: https://bitcoin.org<br>
 Whitepaper: https://bitcoin.org/bitcoin.pdf
 
 <h2>Mission</h2>
 To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
 
 <h2>Overview</h2>
-First block: January 2009
-Supply limit: 21,000,000BTC bitcoins
-Issuance: Block reward
-Block confirmation: Proof-of-work mining
-Mining algorithm: SHA-256
-Block size: 1mb
+First block: January 2009<br>
+Supply limit: 21,000,000BTC bitcoins<br>
+Issuance: Block reward<br>
+Block confirmation: Proof-of-work mining<br>
+Mining algorithm: SHA-256<br>
+Block size: 1mb<br>
 
 <h2>Summary</h2>
 Bitcoin is meant to be used as electronic cash. There are three main ideas to understand:
-<ol><li>Bitcoin users</li><li>The Bitcoin network</li><li>The Bitcoin blockchain</li>
+<ol><li>Bitcoin users</li><li>The Bitcoin network</li><li>The Bitcoin blockchain</li></ol>
 
-<h4>Bitcoin users</h4> send and receive money in the form of bitcoins by publicly broadcasting a transaction to the Bitcoin network. When the transaction is confirmed by the network, the money is transferred from the sender to the receievr.
+<b>Bitcoin users</b> send and receive money in the form of bitcoins by publicly broadcasting a transaction to the Bitcoin network. When the transaction is confirmed by the network, the money is transferred from the sender to the receievr.
 
-<h4>The Bitcoin network</h4> is a group of computers that receive and confirm transactions from Bitcoin users. Each computer participating in the network is called a 'node'. These nodes perform calculations to solve the block's cryptographic hash. Once a node succeeds, all other nodes verifies the solution, accepts the block, and all transactions within the block is confirmed.
+<b>The Bitcoin network</b> is a group of computers that receive and confirm transactions from Bitcoin users. Each computer participating in the network is called a 'node'. These nodes perform calculations to solve the block's cryptographic hash. Once a node succeeds, all other nodes verifies the solution, accepts the block, and all transactions within the block is confirmed.
 
-<h4>The Bitcoin blockchain</h4> is a chain of confirmed blocks. It is saved by every node as a record of all past transactions in chronological order. 
+<b>The Bitcoin blockchain</b> is a chain of confirmed blocks. It is saved by every node as a record of all past transactions in chronological order. 
 
 <h2>Mining</h2>
 
