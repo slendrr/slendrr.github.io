@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="inner">
   <h1>{{ page.title }}</h1>
-  <p><time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">Last updated: {{ post.date | date: "%b %-d, %Y" }}</time></p>
+  <p>Last updated: <time class="published" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time></p>
   <div id="share-buttons">    
     <!-- Facebook -->
     <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl }}" target="_blank">
