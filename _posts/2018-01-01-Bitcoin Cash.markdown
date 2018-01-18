@@ -6,9 +6,11 @@ categories: coinblog
 image: bch
 desc: Coming soon. Bitcoin Cash (BCH).
 ---
-Coming soon.
+<h2>Coming soon</h>
 
-<!--Website: <a href="https://bitcoin.com">https://bitcoin.com</a><br>
+<!--
+
+Website: <a href="https://bitcoin.com">https://bitcoin.com</a><br>
 Whitepaper: <a href="https://bitcoin.com/bitcoin.pdf">https://bitcoin.com/bitcoin.pdf</a>
 
 <h2>Mission</h2>
@@ -38,4 +40,6 @@ Bitcoin is an electronic cash system. Users create wallets to store bitcoins, wh
 
 <h2>Current Developments Regarding Scalability</h2>
 
-The current block-size of 1mb can only fit a limited number of transactions at a time. Once a block is filled, subsequent transactions will have to wait for the next block. As more and more transactions pile up, confirmation times increase. Additionally, transaction fees that determine the priority of transactions also increase. This leads to slow and expensive transactions. Increasing the block-size in order to include more transactions per block would increase the overall size of the blockchain and has been deemed by the developers to be an unsustainable method of scaling. Two developments introduced to solve this problem are <b>Segregated Witness</b> and the <b>Lightning Network</b>.-->
+The current block-size of 1mb can only fit a limited number of transactions at a time. Once a block is filled, subsequent transactions will have to wait for the next block. As more and more transactions pile up, confirmation times increase. Additionally, transaction fees that determine the priority of transactions also increase. This leads to slow and expensive transactions. Increasing the block-size in order to include more transactions per block would increase the overall size of the blockchain and has been deemed by the developers to be an unsustainable method of scaling. Two developments introduced to solve this problem are <b>Segregated Witness</b> and the <b>Lightning Network</b>.
+
+-->
