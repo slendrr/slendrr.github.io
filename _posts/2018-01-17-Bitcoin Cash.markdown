@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Bitcoin Cash"
+date:   2018-01-01 00:00:00 +0000
+categories: coinblog
+image: bch
+desc: Coming soon. Bitcoin Cash (BCH).
+---
+Coming soon.
+
+<!--Website: <a href="https://bitcoin.com">https://bitcoin.com</a><br>
+Whitepaper: <a href="https://bitcoin.com/bitcoin.pdf">https://bitcoin.com/bitcoin.pdf</a>
+
+<h2>Mission</h2>
+To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
+
+<h2>Overview</h2>
+Genesis block: January 2009<br>
+Fork Date: August 1st 2017<br>
+First Block: #478559
+Block explorer: <a href="https://blockchain.info">https://blockchain.info</a><br>
+Supply limit: 21,000,000 BCH<br>
+Issuance: Block reward<br>
+Block confirmation: Proof-of-work<br>
+Mining algorithm: SHA-256<br>
+Block size: 8mb<br>
+
+<h2>Summary</h2>
+Bitcoin is an electronic cash system. Users create wallets to store bitcoins, which can be sent other wallets by broadcasting a transaction to the Bitcoin network. The Bitcoin network is a group of computers that receive these transactions and put them into a block. Each computer performs mathematical calculations in order to solve the block's hash, thereby confirming the transactions within the block. This activity is called mining because when a computer solves the hash, it receives bitcoin as a reward. All other computers in the network will verify that the completed hash is correct, add the block to their copy of the blockchain, and start working on the next block. Over time, these blocks form a chain of transactions and acts as a public ledger to keep track of all bitcoins in the system. The remainder of this post will explain each of these elements in greater detail and accuracy.
+
+<b>Wallets</b> are comprised of a public address and a private key. A private key is a 256-bit number that follows the cryptographic algorithm secp256k1. This key is used to produce a signature, allowing you to sign for transactions and spend bitcoins stored on the wallet. Wallets can be set up to require multiple signatures. A public address is derived from the private key by applying a series of hashes to it. This process means the reverse (generating the private key from a public address) is practically impossible to perform. A public address is similar to an e-mail address. Other users will use your public address to send bitcoins to you.
+
+<b>Transactions</b> transfer ownership of bitcoins between wallets. The data contained in a transaction helps verify and determine the movement of bitcoins. A transaction's input data verifies that bitcoins are available to be spent by referencing the output data of a previous transaction. The input data is basically saying, 'this is where the bitcoins came from and is available to be spent'. Input data also includes a signature from the wallet holder to verify that the user has access to these bitcoins. The output data takes the verified bitcoins and sends it to a new wallet address. When a transaction is broadcasted to the Bitcoin network, it gets added to a block. An optional transaction fee may be added to the transaction to incentivize the network to increase its priority.
+
+<b>Blocks</b> contain transactions and a hash of the previous block's data. Computers in the Bitcoin network perform an extremely complicated mathematical problem to solve this hash. The difficulty of the hash is automatically adjusted to ensure new blocks are added every 10 minutes. Once the problem is solved, all other computers in the network can easily verify the solution, accept the block, and begin working on the next block. Connecting each subsequent block with a hash of the previous block ensures a chronological continuity of blocks called a blockchain. The blockchain records a complete and practically irreversible history of all Bitcoin transactions since the first block.
+
+<b>Full nodes</b> are computers in the Bitcoin network that perform the calculations necessary to solve a block's hash and confirm transactions onto the blockchain. This activity is called mining because a reward is given to the full node for performing this work. The reward is comprised of a predetermined amount of bitcoins as well as any transaction fees included in the block. Full nodes also save a full copy of the blockchain.
+
+<h2>Current Developments Regarding Scalability</h2>
+
+The current block-size of 1mb can only fit a limited number of transactions at a time. Once a block is filled, subsequent transactions will have to wait for the next block. As more and more transactions pile up, confirmation times increase. Additionally, transaction fees that determine the priority of transactions also increase. This leads to slow and expensive transactions. Increasing the block-size in order to include more transactions per block would increase the overall size of the blockchain and has been deemed by the developers to be an unsustainable method of scaling. Two developments introduced to solve this problem are <b>Segregated Witness</b> and the <b>Lightning Network</b>.-->

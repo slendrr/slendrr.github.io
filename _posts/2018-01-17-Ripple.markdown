@@ -16,7 +16,7 @@ To provide a single frictionless experience for sending money globally by connec
 Initial release: 2012<br>
 Block explorer: <a href="https://xrpcharts.ripple.com/#/graph">https://xrpcharts.ripple.com/#/graph</a><br>
 Supply limit: 1,000,000,000 XRP<br>
-Issuance: Initial Offering<br>
+Issuance: Initial offering<br>
 Block confirmation: Consensus<br>
 Consensus algorithm: 80% super-majority<br>
 Developments: xCurrent, xRapid, xVia
