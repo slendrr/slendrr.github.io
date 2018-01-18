@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Ripple"
-date:   2018-01-01 00:00:00 +0000
-categories: coinblog
-image: xrp
-desc: Coming soon. Ripple (XRP).
----
-<h2>Coming soon</h2>
