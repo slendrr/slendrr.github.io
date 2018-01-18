@@ -28,7 +28,7 @@ Ripple may refer to Ripple as a company, RippleNet as a network, or Ripple Trans
 
 <b>xCurrent</b> is a real-time gross settlement system that integrates with an institution's existing infrastructure. Traditional institutions operate independently and maintain their own separate ledgers. xCurrent's API translates and standardizes the format of payment messages from these institutions, including information such as FX rates, fees, amounts, accounts, and other payment details. xCurrent then validates the payment message cryptographically and updates the debit and credits onto xCurrent's subledgers, which correspond to each institution's general ledger. This interaction between separate ledgers is called the 'Interledger Protocol (ILP)' and allows transactions to be settled between institutions instantly. You can read Ripple's official xCurrent overview <a href="https://ripple.com/files/ripple_product_overview.pdf">here<a/>.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/bU79HunxJp8"></iframe><br>Video from Ripple.com.
+<div class="12u$"><span class="image fit"><iframe src="https://www.youtube.com/embed/bU79HunxJp8"></iframe></span></div><br>Video from Ripple.com.
 
 <b>xRapid</b> is for payment providers to increase liquidity by utilizing XRP tokens. This is currently under development.
 
