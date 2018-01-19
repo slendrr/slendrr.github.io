@@ -7,7 +7,7 @@ image: eth
 desc: A decentralized platform that runs smart contracts. Ethereum (ETH).
 ---
 Website: <a href="https://ethereum.org">https://ethereum.org</a><br>
-Whitepaper: <a href="https://github.com/ethereum/wiki/wiki/White-Paper">https://github.com/ethereum/wiki/wiki/White-Paper</a>
+Whitepaper: <a href="https://github.com/ethereum/wiki/wiki/White-Paper">https://github.com/ethereum/wiki/wiki/White-Paper</a><br>
 Yellowpaper: <a href="https://ethereum.github.io/yellowpaper/paper.pdf">https://ethereum.github.io/yellowpaper/paper.pdf</a>
 
 <h2>Mission</h2>
