@@ -6,12 +6,12 @@ categories: coinblog
 image: bch
 desc: Coming soon. Bitcoin Cash (BCH).
 ---
-<h2>Coming soon</h>
+<h2>Coming soon</h2>
 
 <!--
 
-Website: <a href="https://bitcoin.com">https://bitcoin.com</a><br>
-Whitepaper: <a href="https://bitcoin.com/bitcoin.pdf">https://bitcoin.com/bitcoin.pdf</a>
+Website: <a href="https://bitcoincash.org">https://bitcoincash.org</a><br>
+Whitepaper: <a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a>
 
 <h2>Mission</h2>
 To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
@@ -20,7 +20,7 @@ To allow peer-to-peer online payments without a trusted third-party by forming a
 Genesis block: January 2009<br>
 Fork Date: August 1st 2017<br>
 First Block: #478559
-Block explorer: <a href="https://blockchain.info">https://blockchain.info</a><br>
+Block explorer: <a href="https://blockdozer.com">https://blockdozer.com</a><br>
 Supply limit: 21,000,000 BCH<br>
 Issuance: Block reward<br>
 Block confirmation: Proof-of-work<br>
@@ -30,7 +30,7 @@ Block size: 8mb<br>
 <h2>Summary</h2>
 Bitcoin is an electronic cash system. Users create wallets to store bitcoins, which can be sent other wallets by broadcasting a transaction to the Bitcoin network. The Bitcoin network is a group of computers that receive these transactions and put them into a block. Each computer performs mathematical calculations in order to solve the block's hash, thereby confirming the transactions within the block. This activity is called mining because when a computer solves the hash, it receives bitcoin as a reward. All other computers in the network will verify that the completed hash is correct, add the block to their copy of the blockchain, and start working on the next block. Over time, these blocks form a chain of transactions and acts as a public ledger to keep track of all bitcoins in the system. The remainder of this post will explain each of these elements in greater detail and accuracy.
 
-<b>Wallets</b> are comprised of a public address and a private key. A private key is a 256-bit number that follows the cryptographic algorithm secp256k1. This key is used to produce a signature, allowing you to sign for transactions and spend bitcoins stored on the wallet. Wallets can be set up to require multiple signatures. A public address is derived from the private key by applying a series of hashes to it. This process means the reverse (generating the private key from a public address) is practically impossible to perform. A public address is similar to an e-mail address. Other users will use your public address to send bitcoins to you.
+<b>Wallets</b> are comprised of a public address and a private key. A private key is a 256-bit number that follows the cryptographic algorithm. This key is used to produce a signature, allowing you to sign for transactions and spend bitcoins stored on the wallet. Wallets can be set up to require multiple signatures. A public address is derived from the private key by applying a series of hashes to it. This process means the reverse (generating the private key from a public address) is practically impossible to perform. A public address is similar to an e-mail address. Other users will use your public address to send bitcoins to you.
 
 <b>Transactions</b> transfer ownership of bitcoins between wallets. The data contained in a transaction helps verify and determine the movement of bitcoins. A transaction's input data verifies that bitcoins are available to be spent by referencing the output data of a previous transaction. The input data is basically saying, 'this is where the bitcoins came from and is available to be spent'. Input data also includes a signature from the wallet holder to verify that the user has access to these bitcoins. The output data takes the verified bitcoins and sends it to a new wallet address. When a transaction is broadcasted to the Bitcoin network, it gets added to a block. An optional transaction fee may be added to the transaction to incentivize the network to increase its priority.
 

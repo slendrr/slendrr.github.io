@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Ethereum"
+date:   2018-01-18 00:00:00 +0000
+categories: coinblog
+image: eth
+desc: A decentralized platform that runs smart contracts. Ethereum (ETH).
+---
+Website: <a href="https://ethereum.org">https://ethereum.org</a><br>
+Whitepaper: <a href="https://github.com/ethereum/wiki/wiki/White-Paper">https://github.com/ethereum/wiki/wiki/White-Paper</a>
+Yellowpaper: <a href="https://ethereum.github.io/yellowpaper/paper.pdf">https://ethereum.github.io/yellowpaper/paper.pdf</a>
+
+<h2>Mission</h2>
+To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
+
+<h2>Overview</h2>
+First block: July 30 2015<br>
+Block explorer: <a href="https://etherscan.io/">https://etherscan.io/</a><br>
+Supply limit: 100,000,000+ ETH<br>
+Issuance: Block reward<br>
+Block confirmation: Proof-of-Work > Proof-of-Stake<br>
+Mining algorithm: Ethash<br>
+
+<h2>Summary</h2>
+
+Ethereum is a blockchain protocol for building decentralized applications. Instead of keeping track of transactions, Ethereum keeps track of accounts in the network. Accounts are different from wallets because they can be programmed to perform an action. Programmed accounts are called smart contracts that execute their code when they receive instructions. Ethereum uses Ether (ETH) as a token to send transactions between accounts and to pay for additional costs incurred when using the protocol. 
+
+<b>Accounts</b> are public addresses that collectively determine the state of the entire Ethereum network. Accounts contain 4 elements that determine its state.<br>
+<ul><li>nonce, the number of transactions/messages sent from the account</li><li>balance, the amount of Ether stored on the account</li><li>storageRoot, a hash of the data stored on the account</li><li>codeHash, a hash of the code programmed into the account</li></ul><br>
+Externally owned accounts are like regular wallets. Contract accounts are programmed with code.
+
+<b>Externally owned accounts</b> are public addresses that are like regular wallets, storing Ether that can be accessed with a private key. These account addresses are generated cryptographically from an elliptic curve private key, similar to the way Bitcoin wallets are generated, except Ethereum addresses are hashed with Keccak-256.
+
+<b>Contract accounts</b> are public addresses that are programmed with code. They do not have a private key. Instead, contract accounts are created when a user sends a transaction to the network with instructions on how to program the contract account. The public address of this contract account is then computed deterministically and cryptographically from the address of its creator and how many transactions the creator has sent. When contract accounts receive messages from the Ethereum network, whether they are sent from other contract accounts or externally owned accounts, they execute their programmed code.
+
+<b>Transactions</b> are signed packages of data that are sent from externally owned accounts. Ethereum transactions contain additional parameters that provide instructions to the recipient. An entire transaction is composed of the following fields:<br>
+<ul><li>nonce, the number of transactions/messages sent from the account.</li><li>value, the amount of Ether to be sent</li><li>to, the address of the recipient</li><li>v, r, s, private-key signature</li><li>gasLimit, maximum amount of gas the sender is willing to pay to complete the transaction</li><li>gasPrice, the price in ETH the sender is willing to pay per unit of gas paid</li></ul><br>
+Additionally, transactions that create a contract account will also include an 'init' field that specifies the code to be programmed into the contract account.
+
+<b>Messages</b> are similar to transactions, but they are only sent from contract accounts. They also include an additional field called 'data' which specifies the input it received in order to execute its code and send its message.
+
+<b>Gas</b> represents computational effort in the Ethereum network. It represents the value miners and users attribute to performing different tasks in the network. Users place gas limits on transactions to declare how much gas they are willing to spend to complete the transaction. Miners can increase or decrease the gas limit of blocks to accommodate additional transactions or protect themselves from network spam.
+
+<b>Miners</b> are computers in the Ethereum network that perform the calculations necessary to solve a block's hash and confirm transactions onto the blockchain. Ethereum uses an algorithm called Ethash to create a hash that takes a lot of memory to solve. This is meant to make mining 'ASIC resistant', reduce the effectiveness of pooling together specialized processing units, and promote decentralization of miners. The difficulty level of this hash is automatically adjusted to ensure new blocks are added on average every 15 seconds. A reward of 5 ETH is given to the miner for performing this work, as well the cost of gas paid by transactions in the block. Miners also maintain a copy of the distributed blockchain as part of their work.
