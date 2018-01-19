@@ -26,7 +26,7 @@ Developments: Casper
 
 Ethereum is a blockchain protocol for building decentralized applications. Instead of keeping track of transactions, Ethereum keeps track of accounts in the network. Accounts are different from wallets because they can be programmed to perform an action. Programmed accounts are called smart contracts that execute their code when they receive instructions. Ethereum uses ether (ETH) as a token to send transactions between accounts and to pay for additional costs incurred when using the protocol. 
 
-<b>Accounts</b> are public addresses that collectively determine the state of the entire Ethereum network. The two types of accounts are externally owned accounts; which act like regular wallets, and contract accounts; which are programmed with code. Accounts contain 4 elements that determine its state:
+<b>Accounts</b> are public addresses that collectively determine the state of the entire Ethereum network. The two types of accounts are externally owned accounts, which act like regular wallets; and contract accounts, which are programmed with code. Accounts contain 4 elements that determine its state:
 <ul><li>nonce; the number of transactions/messages sent from the account</li><li>balance; the amount of ether stored on the account</li><li>storageRoot; a hash of the data stored on the account</li><li>codeHash; a hash of the code programmed into the account</li></ul>
 
 <b>Externally owned accounts</b> are public addresses that are like regular wallets, storing ether that can be accessed with a private key. These account addresses are generated cryptographically from an elliptic curve private key, similar to the way Bitcoin wallets are generated, except Ethereum addresses are hashed with Keccak-256.
