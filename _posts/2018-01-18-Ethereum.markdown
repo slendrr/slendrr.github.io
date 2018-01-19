@@ -11,7 +11,7 @@ Whitepaper: <a href="https://github.com/ethereum/wiki/wiki/White-Paper">https://
 Yellowpaper: <a href="https://ethereum.github.io/yellowpaper/paper.pdf">https://ethereum.github.io/yellowpaper/paper.pdf</a>
 
 <h2>Mission</h2>
-To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
+To provide a decentralized blockchain platform where developers can create transparent and autonomous smart contracts and applications that run without any possibility of downtime, censorship, fraud, or third-party interference.
 
 <h2>Overview</h2>
 First block: July 30 2015<br>
