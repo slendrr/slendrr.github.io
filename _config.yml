@@ -9,7 +9,7 @@
 title: Edwin Hung
 email: edwincyhung@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a writer from Vancouver BC seeking new job opportunities. I am incredibly versatile, with self-taught skills in graphic design, digital illustration, and web development. Thanks for visiting my website. I'd love to hear what you think.
+  I study cryptocurrencies by reading whitepapers and doing research. I do not qualify technical details or criticize design choices. This is a place to learn how different cryptocurrencies actually work. No shilling. No FUD. Just facts.
 baseurl: "http://www.edwinhung.com" # the subpath of your site, e.g. /blog
 url: "http://www.edwinhung.com" # the base hostname & protocol for your site
 twitter_username: ecyhung
