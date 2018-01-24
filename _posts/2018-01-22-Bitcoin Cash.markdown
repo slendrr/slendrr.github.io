@@ -2,13 +2,11 @@
 layout: post
 permalink: /bitcoincash
 title:  "Bitcoin Cash"
-date:   2018-01-01 00:00:00 +0000
+date:   2018-01-22 00:00:00 +0000
 categories: coinblog
 image: bch
-desc: Coming soon.<!-- A peer-to-peer electronic cash system. Block-size matters.--> Bitcoin Cash (BCH).
+desc: A peer-to-peer electronic cash system. Block-size matters. Bitcoin Cash (BCH).
 ---
-<h2>coming soon</h2>
-<!--
 Website: <a href="https://bitcoincash.org">https://bitcoincash.org</a><br>
 Whitepaper: <a href="https://www.bitcoincash.org/bitcoin.pdf">https://www.bitcoincash.org/bitcoin.pdf</a>
 
@@ -42,7 +40,6 @@ Increasing the block-size is the simplest and most straight-forward way to handl
 
 <b>Graphene</b> is a protocol for block propagation using set reconciliation. Normally, when network nodes receive transactions and build a block, they must propagate the list of transactions to the rest of the network to make sure the entire network is updated. Faster block propagation increases security and reduces the chance for slower nodes to waste processing power working on outdated blocks. Graphene accomplishes this by encoding the transactions list using a 'Bloom filter' to create an 'Invertible bloom lookup table (IBLT)'. Basically, the list of transactions is compressed into a much smaller, invertible data set. The key here is the word 'invertible', which means the compressed and filtered transaction list can be reversed. The filtered data is reduced to roughly 10% of the orignial size, allowing must faster propagation throughout the network. This improvement greatly reduces the bandwidth requirements of scaling Bitcoin Cash by increasing the block-size. The official whitepaper for Graphene can be found <a href="http://forensics.cs.umass.edu/graphene/graphene-short.pdf">here</a>.
 
-<b>Gigablock Testnet Initiative</b> explores the possibility and implications of running the Bitcoin Cash network with 1GB blocks.
+<b>Gigablock Testnet Initiative</b> explores the possibility and implications of running the Bitcoin Cash network with 1GB blocks. The purpose of this project is to find out if a network of this scale is actually viable. If there are problems, then the researchers can brainstorm ideas in advance and begin developing solutions today. The goal is not to implement 1GB blocks immediately, rather it is just an exercise to further test big block scaling.
 
-<b>Colored Coins</b>
--->
+<b>Colored Coins</b> is a way for users on the Bitcoin Cash blockchain to issue their own coin on the network. Similar functionalities are already available in other cryptocurrencies, often referred to as digital tokens or digital assets. The idea is to 'color' some BCH that you own with a cryptographic tag. The BCH you've tagged can be spent as a regular BCH coin as well as any additional value that's been added with the tag. For example, businesses can tag their BCH coins with reward points that are redeemable for discounts. This is currently under development.
