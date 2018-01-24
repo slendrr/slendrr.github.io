@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Edwin Hung
+title: Edwin's Crypto Library
 email: edwincyhung@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I study cryptocurrencies and find out how they work. I do not qualify technical details or criticize design choices. This website is a collection of posts where I can record my research and allow others to learn as well.
+  I study cryptocurrencies and find out how they work. I do not qualify technical details or criticize design choices. This is just a collection of my research.
 baseurl: "http://www.edwinhung.com" # the subpath of your site, e.g. /blog
 url: "http://www.edwinhung.com" # the base hostname & protocol for your site
 twitter_username: ecyhung
