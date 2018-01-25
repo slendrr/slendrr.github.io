@@ -16,7 +16,7 @@ To allow peer-to-peer online payments without a trusted third-party by forming a
 <h2>Overview</h2>
 Genesis block: January 2009<br>
 Fork Date: August 1st 2017<br>
-First Block: #478559
+First Block: #478559<br>
 Block explorer: <a href="https://blockdozer.com">https://blockdozer.com</a><br>
 Supply limit: 21,000,000 BCH<br>
 Issuance: Block reward<br>
