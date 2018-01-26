@@ -5,7 +5,7 @@ title:  "Ripple"
 date:   2018-01-17 00:00:00 +0000
 categories: coinblog
 image: xrp
-desc: A global real-time settlement network. Blockchain for the banks. Ripple (XRP).
+desc: A global real-time settlement network. Blockchain for banks. Ripple (XRP).
 ---
 Website: <a href="https://ripple.com">https://ripple.com</a><br>
 Whitepaper: <a href="https://ripple.com/files/ripple_consensus_whitepaper.pdf">https://ripple.com/files/ripple_consensus_whitepaper.pdf</a>
