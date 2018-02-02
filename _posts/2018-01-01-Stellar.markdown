@@ -2,12 +2,14 @@
 layout: post
 permalink: /Stellar
 title:  "Stellar"
-date:   2018-01-24 00:00:00 +0000
+date:   2018-01-01 00:00:00 +0000
 categories: coinblog
 image: xlm
-desc: An open, global financial network. The future of banking. (XLM).
+desc: Coming soon. <!--An open, global financial network. The future of banking.--> (XLM).
 ---
-Website: <a href="https://stellar.org">https://stellar.org</a><br>
+<h2>Coming soon</h2>
+
+<!-- Website: <a href="https://stellar.org">https://stellar.org</a><br>
 Whitepaper: <a href="https://www.stellar.org/papers/stellar-consensus-protocol.pdf">https://www.stellar.org/papers/stellar-consensus-protocol.pdf</a>
 
 <h2>Mission</h2>
@@ -22,4 +24,4 @@ Block confirmation: Consensus<br>
 Consensus algorithm: Stellar Consensus Protocol (SCP)<br>
 Developments: 
 
-<h2>Summary</h2>
+<h2>Summary</h2> -->
