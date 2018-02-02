@@ -1,0 +1,25 @@
+---
+layout: post
+permalink: /Stellar
+title:  "Stellar"
+date:   2018-01-24 00:00:00 +0000
+categories: coinblog
+image: xlm
+desc: An open, global financial network. The future of banking. (XLM).
+---
+Website: <a href="https://stellar.org">https://stellar.org</a><br>
+Whitepaper: <a href="https://www.stellar.org/papers/stellar-consensus-protocol.pdf">https://www.stellar.org/papers/stellar-consensus-protocol.pdf</a>
+
+<h2>Mission</h2>
+To create an open, global financial network, facilitate cross-asset transfers of value and payments, and allow equal access and economic participation.
+
+<h2>Overview</h2>
+First block: July 30 2014<br>
+Block explorer: <a href="https://dashboard.stellar.org/">https://dashboard.stellar.org/</a><br>
+Supply limit: ~103,000,000,000 XLM<br>
+Issuance: initial coin genesis, lumen auction, lumen giveaway<br>
+Block confirmation: Consensus<br>
+Consensus algorithm: Stellar Consensus Protocol (SCP)<br>
+Developments: 
+
+<h2>Summary</h2>
