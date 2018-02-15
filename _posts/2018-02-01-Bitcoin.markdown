@@ -18,7 +18,7 @@ First block: January 2009<br>
 Block explorer: <a href="https://blockchain.info">https://blockchain.info</a><br>
 Supply limit: 21,000,000 BTC<br>
 Issuance: Block reward<br>
-Block confirmation: Proof-of-work<br>
+Block confirmation: Proof-of-Work<br>
 Mining algorithm: SHA-256<br>
 Block size: 1mb<br>
 Developments: Replace-by-fee, Segregated Witness, Lightning Network

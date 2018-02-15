@@ -20,7 +20,7 @@ First Block: #478559<br>
 Block explorer: <a href="https://blockdozer.com">https://blockdozer.com</a><br>
 Supply limit: 21,000,000 BCH<br>
 Issuance: Block reward<br>
-Block confirmation: Proof-of-work<br>
+Block confirmation: Proof-of-Work<br>
 Mining algorithm: SHA-256<br>
 Block size: 8mb<br>
 Developments: Graphene, Gigablock Testnet Initiative, Colored Coins

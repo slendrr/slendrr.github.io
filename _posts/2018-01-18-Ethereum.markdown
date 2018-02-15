@@ -19,7 +19,7 @@ First block: July 30 2015<br>
 Block explorer: <a href="https://etherscan.io/">https://etherscan.io/</a><br>
 Supply limit: 100,000,000+ ETH<br>
 Issuance: Block reward<br>
-Block confirmation: Proof-of-work<br>
+Block confirmation: Proof-of-Work<br>
 Mining algorithm: Ethash<br>
 Developments: Casper
 
