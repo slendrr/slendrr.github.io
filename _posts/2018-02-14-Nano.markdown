@@ -5,13 +5,13 @@ title:  "Nano"
 date:   2018-02-14 00:00:00 +0000
 categories: coinblog
 image: xrb
-desc: A fee-less distributed cryptocurrency network. (XRB).
+desc: A fee-less distributed cryptocurrency network. Free, instant, and unlimited transactions. (XRB).
 ---
 Website: <a href="https://nano.org">https://nano.org</a><br>
 Whitepaper: <a href="https://nano.org/en/whitepaper">https://nano.org/en/whitepaper</a>
 
 <h2>Mission</h2>
-To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
+To create a zero-fee, instant network for peer-to-peer transactions that is infinitely scalable.
 
 <h2>Overview</h2>
 Genesis block: December 2014<br>
