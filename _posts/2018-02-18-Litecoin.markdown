@@ -31,7 +31,7 @@ Litecoin started off by forking the Bitcoin client but differentiates itself by 
 
 <b>Block confirmation times</b> of 2.5 minutes allows transactions to be confirmed faster and miners receive block rewards more reliably than with Bitcoin. Faster confirmations also makes it harder for miners to perform double-spend attacks because blocks will be more quickly buried under additional confirmations. However, more blocks also means the blockchain grows 4x faster than Bitcoin, causing the cost of storing the blockchain to increase as well. Faster block confirmations also causes block propagation time to be more impactful. Miner's who haven't received the newest block in time may spend time trying to mine a previous block, wasting hashpower and reducing the security of the network.
 
-<b>The supply limit</b> of Litecoin is technically 4x more than Bitcoin, but since block times are 4x faster, the supply limit is relatively equal. The current block reward is 25 LTC and will half every 840,000 blocks (roughly every 4 years). Taking into the account of LItecoin's reduced block times, Litecoin follows a relatively equal distribution of coins and rate of inflation to Bitcoin.
+<b>Supply limit</b> of Litecoin is technically 4x more than Bitcoin, but since block times are 4x faster, the supply limit is relatively equal. The current block reward is 25 LTC and will half every 840,000 blocks (roughly every 4 years). Taking into the account of Litecoin's reduced block times, Litecoin follows a relatively equal distribution of coins and rate of inflation to Bitcoin.
 
 <h2>Scalability and Developments</h2>
 
