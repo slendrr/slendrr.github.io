@@ -11,7 +11,7 @@ Website: <a href="https://litecoin.org">https://litecoin.org</a><br>
 Whitepaper: <a href="https://www.bitcoincash.org/bitcoin.pdf">https://www.bitcoincash.org/bitcoin.pdf</a>
 
 <h2>Mission</h2>
-To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
+To provide a decentralized peer-to-peer internet currency with faster transaction confirmation times, near-zero payment costs, and improved storage efficiency than the leading cryptocurrency, complementary to Bitcoin.
 
 <h2>Overview</h2>
 Genesis block: October 13th 2011<br>
