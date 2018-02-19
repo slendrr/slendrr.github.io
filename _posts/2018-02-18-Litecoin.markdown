@@ -1,0 +1,38 @@
+---
+layout: post
+permalink: /Litecoin
+title:  "Litecoin"
+date:   2018-02-18 00:00:00 +0000
+categories: coinblog
+image: ltc
+desc: Peer-to-peer internet currency. The silver to Bitcoin's gold. (LTC).
+---
+Website: <a href="https://litecoin.org">https://litecoin.org</a><br>
+Whitepaper: <a href="https://www.bitcoincash.org/bitcoin.pdf">https://www.bitcoincash.org/bitcoin.pdf</a>
+
+<h2>Mission</h2>
+To allow peer-to-peer online payments without a trusted third-party by forming a decentralized network of miners, incentivized to maintain an honest chain of transaction blocks.
+
+<h2>Overview</h2>
+Genesis block: October 13th 2011<br>
+Block explorer: <a href="http://explorer.litecoin.net/chain/Litecoin">http://explorer.litecoin.net/chain/Litecoin</a><br>
+Supply limit: 84,000,000 LTC<br>
+Issuance: Block reward<br>
+Block confirmation: Proof-of-Work<br>
+Mining algorithm: Scrypt<br>
+Block size: 1mb<br>
+Developments: Segregated Witness, Lightning Network
+
+<h2>Summary</h2>
+
+Litecoin started off by forking the Bitcoin client but differentiates itself by processing blocks every 2.5 minutes (rather than 10), increasing the supply limit of coins to 84 million (rather than 21 million), and using scrypt for its mining algorithm (rather than SHA-256). The Litecoin blockchain itself is completely separate from the Bitcoin blockchain and originates from its own genesis block. Throughout the lifetime of Litecoin, many of Bitcoin's developments were first implemented in Litecoin, such as segregated witness and lightning network. Due to its origins, similar logo, and history of developments, Litecoin is often given the 'silver' status compared to Bitcoin's 'gold' status.
+
+<b>Scrypt mining</b> depends on large amounts of memory in addition to fast arithmetic operations. This means dedicated mining systems that heavily utilize ASIC's will not be as effective. Instead, a regular computer can participate in the Litecion mining process and promotes decentralization of the network. However, this also means miners may have less at stake when participating in Litecoin mining and the exit costs become lower as well.
+
+<b>Block confirmation times</b> of 2.5 minutes allows transactions to be confirmed faster and miners receive block rewards more reliably than with Bitcoin. Faster confirmations also makes it harder for miners to perform double-spend attacks because blocks will be more quickly buried under additional confirmations. However, more blocks also means the blockchain grows 4x faster than Bitcoin, causing the cost of storing the blockchain to increase as well. Faster block confirmations also causes block propagation time to be more impactful. Miner's who haven't received the newest block in time may spend time trying to mine a previous block, wasting hashpower and reducing the security of the network.
+
+<b>The supply limit</b> of Litecoin is technically 4x more than Bitcoin, but since block times are 4x faster, the supply limit is relatively equal. The current block reward is 25 LTC and will half every 840,000 blocks (roughly every 4 years). Taking into the account of LItecoin's reduced block times, Litecoin follows a relatively equal distribution of coins and rate of inflation to Bitcoin.
+
+<h2>Scalability and Developments</h2>
+
+Litecoin maintains a block-size of 1mb, but due to its reduced block times, Litecoin is inherently capable of processing 4x more transactions than Bitcoin. In addition to this, Litecoin receives less traffic and usage than Bitcoin so there is no immediate issue of scaling at this time. Although Segregated Witness and Lightning Network is implemented, they are not currently significant projects in the development of Litecoin. The network is already fast and cheap under normal conditions.
