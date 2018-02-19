@@ -1,0 +1,33 @@
+---
+layout: post
+permalink: /nano
+title:  "Nano"
+date:   2018-02-18 00:00:00 +0000
+categories: coinblog
+image: xrb
+desc: A fee-less distributed cryptocurrency network. Free, instant, and unlimited transactions. (XRB).
+---
+Website: <a href="https://nano.org">https://nano.org</a><br>
+Whitepaper: <a href="https://nano.org/en/whitepaper">https://nano.org/en/whitepaper</a>
+
+<h2>Mission</h2>
+To deliver near instantaneous transactions and unlimited scalability by implementing blockchains that can be updated asynchronously while still maintaining network continuity through a block-lattice structure.
+
+<h2>Overview</h2>
+Genesis block: December 2014<br>
+Block explorer: <a href="https://www.nanode.co/">https://www.nanode.co/</a><br>
+Supply limit: 133,248,290 XRB<br>
+Issuance: Captcha faucet<br>
+Block confirmation: Delegated Proof-of-Stake<br>
+
+<h2>Summary</h2>
+
+Nano was originally called Raiblocks and all XRB tokens were created at once from the genesis block. The tokens were then distributed through a captcha-based faucet system. Anyone could solve captchas and receive XRB tokens in return. This distribution ended in October of 2017 and no more XRB tokens will be created. In January of 2018, Raiblocks rebranded as Nano to appeal to the masses by adopting a more mainstream, recognizable, and generic brand identity. It's technical aspects remain unchanged. Nano still combines a delegated proof-of-stake consensus protocol with a block-lattice structure, as opposed to a conventional blockchain structure. The Nano community heavily prioritizes network speed and low fees and strives to do one thing better than the rest, peer-to-peer transactions.
+
+<b>Accounts</b> are cryptographic wallets with a public address and private key, just like any other cryptocurrency. However, accounts on the Nano network all maintain their own separate blockchains that can only be updated by the account's owner. This allows transactions on the Nano network to be immediate. Accounts also record balances rather than keep an entire history of transactions. This improves the network's speed when downloading blocks. The sum of the balance contained in all accounts must never exceed the initial genesis balance.
+
+<b>Transactions</b> on the Nano network must both be sent and received to be fully settled. As soon as a transaction is sent, the funds are immediately deducted from the sender's account balance. However, the transaction will still be unsettled until it is accepted by the receiver and the funds are added to their account balance. Allowing account holders to receive funds and update their own account balances removes the need to wait for confirmations from the network. Transactions are settled and confirmed by the account holder.
+
+<b>Block-lattice</b> is the structure of the Nano network's distributed ledger. Each 'send' transaction on an individual account's blockchain is connected to a 'receive' transaction on another account's blockchain. This means blocks in individual account blockchains are connected to create a block-lattice that comprises the entire Nano ledger.
+
+<b>Nodes</b> are computers that run the Nano protocol and participate by observing the transactions that occur between accounts and voting on conflicting transactions through a delegated proof-of-stake mechanism. Nodes gain voting power proportional to their balance of funds. Accounts can delegate their voting power to nodes by broadcasting a 'change' transaction. Their voting power, based on the funds held in the account, is delegated to the declared node.
