@@ -2,7 +2,7 @@
 layout: post
 permalink: /nano
 title:  "Nano"
-date:   2018-02-18 00:00:00 +0000
+date:   2018-02-25 00:00:00 +0000
 categories: coinblog
 image: xrb
 desc: A fee-less distributed cryptocurrency network. Free, instant, and unlimited transactions. (XRB).
@@ -27,6 +27,8 @@ Nano was originally called Raiblocks and all XRB tokens were created at once fro
 <b>Accounts</b> are cryptographic wallets with a public address and private key, just like any other cryptocurrency. However, accounts on the Nano network all maintain their own separate blockchains that can only be updated by the account's owner. This allows transactions on the Nano network to be immediate. Accounts also record balances rather than keep an entire history of transactions. This improves the network's speed when downloading blocks. The sum of the balance contained in all accounts must never exceed the initial genesis balance.
 
 <b>Transactions</b> on the Nano network must both be sent and received to be fully settled. As soon as a transaction is sent, the funds are immediately deducted from the sender's account balance. However, the transaction will still be unsettled until it is accepted by the receiver and the funds are added to their account balance. Allowing account holders to receive funds and update their own account balances removes the need to wait for confirmations from the network. Transactions are settled and confirmed by the account holder.
+
+<b>Proof-of-Work</b> is incorporated into the process of creating a transaction. Each transaction must have a nonce value that is derived by hashing the previous transaction's nonce value. The hash algorithm used is very simple, similar to Hashcash, and only takes a few seconds to complete. This sequence of nonce hashes is common practice in cryptocurrenies to ensure a cryptographically proven continuity of transactions within a blockchain. This also acts as an anti-spam measure by demanding significantly more computing power to flood the network with transactions compared to the rest of the network to verify them.
 
 <b>Block-lattice</b> is the structure of the Nano network's distributed ledger. Each 'send' transaction on an individual account's blockchain is connected to a 'receive' transaction on another account's blockchain. This means blocks in individual account blockchains are connected to create a block-lattice that comprises the entire Nano ledger.
 
