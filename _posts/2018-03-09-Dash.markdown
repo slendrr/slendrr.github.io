@@ -2,7 +2,7 @@
 layout: post
 permalink: /Dash
 title:  "Dash"
-date:   2018-03-02 00:00:00 +0000
+date:   2018-03-09 00:00:00 +0000
 categories: coinblog
 image: dash
 desc: A revolutionary digital money system. Meet Digital Cash. (DASH).
