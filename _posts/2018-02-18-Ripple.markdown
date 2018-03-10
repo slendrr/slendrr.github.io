@@ -23,7 +23,7 @@ Consensus algorithm: The Ripple Protocol Consensus Algorithm<br>
 Developments: xCurrent, xRapid, xVia
 
 <h2>Summary</h2>
-Ripple is a company that is responsible for the development of many financial products, one of which is a cryptocurrency called XRP. Ripple also forges partnerships and helps institutions integrate into RippleNet. RippleNet is a network of institutions that use Ripple's products to perform cross-border transactions in real-time. XRP is the cryptocurrency that Ripple intends to offer as an intermediary asset for institutions participating in RippleNet. The majority of XRP tokens created are held by Ripple and its creators for this purpose.
+Ripple began as local exchange trading system in Vancouver by Ryan Fugger in 2004. This platform allowed individuals and communities to create their own money. Jed McCaleb was developing a cryptocurrency in 2011 and co-founded a company called OpenCoin with Chris Larsen in 2012 while also absorbing Ryan Fugger's Ripple. Jed McCaleb left in 2013 and OpenCoin changed its name to Ripple. Ripple is responsible for the development of many financial products, one of which is a cryptocurrency called XRP. Ripple also forges partnerships and helps institutions integrate into RippleNet. RippleNet is a network of institutions that use Ripple's products to perform cross-border transactions in real-time. XRP is the cryptocurrency that Ripple intends to offer as an intermediary asset for institutions participating in RippleNet. The majority of XRP tokens created are held by Ripple and its creators for this purpose.
 
 <h2>RippleNet Product Suite</h2>
 

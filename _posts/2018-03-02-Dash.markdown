@@ -1,0 +1,38 @@
+---
+layout: post
+permalink: /Dash
+title:  "Dash"
+date:   2018-03-02 00:00:00 +0000
+categories: coinblog
+image: dash
+desc: A revolutionary digital money system. Meet Digital Cash. (DASH).
+---
+Website: <a href="https://www.dash.org/">https://www.dash.org/</a><br>
+Whitepaper: <a href="https://github.com/dashpay/dash/wiki/Whitepaper">https://github.com/dashpay/dash/wiki/Whitepaper</a>
+
+<h2>Mission</h2>
+To make instant, private payments available online or in-store using an open-source platform hosted by thousands of users around the world.
+
+<h2>Overview</h2>
+First block: January 18th 2014<br>
+Block explorer: <a href="https://chainz.cryptoid.info/dash/">https://chainz.cryptoid.info/dash/</a><br>
+Supply limit: 18,900,000 DASH<br>
+Issuance: Block reward<br>
+Block confirmation: Proof-of-Work<br>
+Mining Algorithm: X11<br>
+
+<h2>Summary</h2>
+Dash originally began as a project based off of Bitcoin, created by Evan Duffield. It was initinally called XCoin, then DarkCoin, and now Dash. It aims to improve upon Bitcoin by introducing an alternative incentive and node structure called the Masternode Reward Program. Masternodes receive additional block rewards for performing additional services to the network such as PrivateSend and InstantSend. Dash also uses a more complex hashing algorithm called X11 and a more dynamic and frequent block hash difficulty adjustment scheme called Dark Gravity Wave to promote decentralization of miners. The funding for the development of Dash is governed by Masternodes on the network who act as a decentralized autonomous organization (DAO).
+
+<b>Masternodes</b> are like full nodes. They send and receive transactions, participate in mining, and keep an updated copy of the blockchain. However, they also provide additional services such as PrivateSend and InstantSend. A Masternode is formed by depositing 1,000DASH as collateral. The deposit becomes locked with the node and a secondary key is created for signing further messages from the Masternode. Every 15 minutes, the Masternode must send a 'Masternode Announce' message to ping the network and prove it is active.
+
+<b>Block rewards</b> in Dash are divided up into three portions. 45% of the block reward is given to the Masternodes as an additional incentive for providing additional services to the network. 10% of the block reward is deposited into a community fund, where users can vote on which community developments receive funding. The remaining 45% of the block reward is given to miners.
+
+<b>PrivateSend</b> is an extended version of CoinJoin and allows transactions to be sent privately. Transaction inputs are merged together and sent as multiple outputs. For example, a transaction input of 1DASH may be split into two outputs of 0.5DASH. Although increasing the number of inputs would increase the complexity of outputs, it would technically still be possible to add up the amounts of several outputs until the sum matches one of the inputs and expose the transaction. In order to prevent a transaction from being traced backwards like this, all inputs for a PrivateSend transaction must be denominated in 0.1DASH, 1DASH, 10DASH, or 100DASH. This way, once the input transactions are mixed and outputted again, an investigator cannot trace the transactions because you cannot differentiate one input from the other. All inputs would appear to be the same. PrivateSend transactions require higher fees to incentivize nodes to perform the extra work and to prevent DOS attacks.
+
+<b>InstantSend</b> relies on Masternode quorums to lock the transaction. This takes about four seconds. If consensus is reached on a lock by the Masternode network, all incoming transactions and blocks that conflict would be rejected. If consensus is not reached by the Masternode network in time, the transaction will still be confirmed through regular network block confirmations.
+
+<b>X11</b> is an algorithm that chains together all 11 SHA3 contestants to reach a block's final hash. This added complexity makes it more difficult to create specialized hardware such as ASICs for mining, allowing average users to participate and remain profitable mining on the network.
+
+<b>Dash governance<b> allows the community to submit projects to the network. Once per month, a super block distributes funds to the community based on the number of votes each project receives. Each Masternode is entitled to one vote each month to support proposals offered by the community.
+
