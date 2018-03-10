@@ -34,5 +34,5 @@ Dash originally began as a project based off of Bitcoin, created by Evan Duffiel
 
 <b>X11</b> is an algorithm that chains together all 11 SHA3 contestants to reach a block's final hash. This added complexity makes it more difficult to create specialized hardware such as ASICs for mining, allowing average users to participate and remain profitable mining on the network.
 
-<b>Dash governance<b> allows the community to submit projects to the network. Once per month, a super block distributes funds to the community based on the number of votes each project receives. Each Masternode is entitled to one vote each month to support proposals offered by the community.
+<b>Dash governance</b> allows the community to submit projects to the network. Once per month, a super block distributes funds to the community based on the number of votes each project receives. Each Masternode is entitled to one vote each month to support proposals offered by the community.
 
